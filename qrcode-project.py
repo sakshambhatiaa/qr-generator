@@ -7,7 +7,7 @@ qr = qrcode.QRCode(
     border = 5
 )
 
-data = "https://www.google.com/"
+data = "https://www.google.com/#"
 qr.add_data(data)
 qr.make(fit = True)
 img = qr.make_image(fill="black", back_colour="red")
